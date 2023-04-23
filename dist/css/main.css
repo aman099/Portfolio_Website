@@ -253,7 +253,8 @@ img {
 #home-a .specials {
   margin-top: 3rem;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); }
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem; }
   #home-a .specials .fas {
     color: #ffbc00;
     padding-bottom: 0.4rem; }
@@ -347,28 +348,6 @@ img {
     text-align: center;
     background-color: #ffbc00; }
 
-#contact-a .text-fields {
-  display: grid;
-  grid-template-areas: "name email" "subject phone" "message message";
-  gap: 1.2rem;
-  margin-bottom: 1.2rem; }
-  #contact-a .text-fields .name-input {
-    grid-area: name; }
-  #contact-a .text-fields .subject-input {
-    grid-area: subject; }
-  #contact-a .text-fields .email-input {
-    grid-area: email; }
-  #contact-a .text-fields .phone-input {
-    grid-area: phone; }
-  #contact-a .text-fields .message-input {
-    grid-area: message;
-    height: 100px; }
-  #contact-a .text-fields .text-input {
-    padding: 0.5rem 1rem; }
-
-#contact-a button[type="submit"] {
-  width: 50%; }
-
 #contact-b .contact-info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -376,7 +355,8 @@ img {
 
 #contact-c h1 {
   text-align: center;
-  font-size: 4rem; }
+  font-size: 4rem;
+  font-family: "Times New Roman", Times, serif; }
 
 #main-footer {
   background-color: #333;
