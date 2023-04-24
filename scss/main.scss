@@ -322,6 +322,7 @@ img {
       text-align: center;
       font-size: 4rem;
       font-family: "Times New Roman", Times, serif;
+      color: #111;
     }
   }
 }
@@ -364,6 +365,9 @@ img {
       }
       &.fa-linkedin:hover {
         color: #0a66c2;
+      }
+      &.fa-github:hover {
+        color: #171515;
       }
     }
   }
