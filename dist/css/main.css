@@ -320,6 +320,9 @@ img {
   grid-area: bio;
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
+  #about-a .bio p {
+    font-family: cursive;
+    color: #666; }
 
 #about-a .award-1 {
   grid-area: aw1; }
@@ -336,17 +339,26 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
+#about-a .award-1 p,
+#about-a .award-2 p,
+#about-a .award-3 p {
+  font-family: Arial, Helvetica, sans-serif; }
+
 #about-b .progress {
   overflow: hidden;
   height: 20px;
+  width: 100%;
   background-color: #ccc;
   border-radius: 5px;
   margin-bottom: 0.8rem; }
   #about-b .progress div {
     height: 100%;
+    width: 5%;
+    opacity: 0;
     color: #000;
     text-align: center;
-    background-color: #ffbc00; }
+    background-color: #ffbc00;
+    transition: all 0.8s; }
 
 #contact-b .contact-info {
   display: grid;
